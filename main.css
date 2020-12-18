@@ -1,0 +1,525 @@
+@charset "UTF-8";
+
+/*===================================
+
+
+  Universal Styling
+
+
+*=====================================*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Raleway', sans-serif;   	
+}
+
+.container {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;	
+}
+
+body { 
+	background:#EFD4D4;	
+}
+
+footer {
+    background: #EFD4D4;
+    margin-top:90px;
+	margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #524F4F;
+}
+
+/*===================================
+
+
+  Header Styling
+
+
+*=====================================*/
+header {
+    text-align: right;
+    background-color: #EFD4D4;
+    padding: 35px 0;
+    width: 100%;
+    z-index: 9999999;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header nav, header img {
+    display: inline-block;
+}
+
+header nav {
+    width: 88%;
+    position: relative;
+    top: -34px;
+}
+
+header a {
+    font-weight: normal;
+    color: #524F4F;
+    margin: 0px 10px;
+    font-size: large;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: white;
+    background: hsla(200,74%,57%,1.00);
+	padding: 5px;
+}
+
+h2 {
+    font-family: 'Caveat Brush', cursive;
+    text-transform: none;
+    font-size: 28px;
+    color: #524F4F;
+}
+
+header nav ul li {
+    display: inline;	
+}
+
+/*===================================
+
+
+  Hero Section Styling
+
+
+*=====================================*/
+.top-hero {
+    position: relative;
+    min-height: 65vh;
+    z-index: 1;
+    background-color: #EFD4D4;
+}
+
+.top-hero img {
+    max-width: 600px;
+    margin-top: 20px;
+	padding-right: 100px;
+    float: right;
+    margin-bottom: 80px;
+}
+
+.hero-content {
+    position: absolute;
+    top: 10%;
+    left: 153px;
+    color: #524F4F;
+}
+
+.hero-content h1 {
+	font-family: 'Caveat Brush', cursive;
+    font-size: 54px;
+    padding-right: 170px;
+}
+
+/*===================================
+
+
+  Fonts Styling
+
+
+*=====================================*/
+
+h1 {
+	font-family: 'Caveat Brush', cursive;
+    font-size: 54px;
+    padding-right: 170px;
+	color: #524F4F;
+	}
+
+p {
+	color: #524F4F;
+}
+
+.hero-content p {
+	font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    padding-top: 41px;
+}
+
+/*===================================
+
+
+  Button front page Styling
+
+
+*=====================================*/
+
+.book-class {
+    font-family: 'Raleway', sans-serif;
+    background-color: #42AEE3;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin: 20px 5px;
+    display: block;
+    max-width: 130px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.book-class:hover {
+    background-color: #F4A73D;
+}
+
+/*===================================
+
+
+  Contact Page Styling
+
+
+*=====================================*/
+.contact-form {
+    background: #8BE0DD;
+    border-radius: 10px;
+	padding: 10px;
+}
+
+.label_input_wrap {
+	display:block; 
+}
+
+.submit input {
+	background: #807D7D;
+	color: white;
+	padding: 7px;
+	font-weight: bold;		
+}
+
+.submit input:hover {
+	background: #F4A73D;	
+}
+
+.input-section {
+	margin-bottom: 10px;	
+}
+
+input {
+	padding: 5px 10px;
+	border-radius: 3px;
+}
+
+textarea {
+	border-radius: 3px;
+}
+
+label {
+    font-weight: bold;
+    font-size: small;
+	padding-bottom: 3px;
+}
+
+.pseudo p:first-of-type:before {
+	content: "Your Feedback ";
+	font-weight: bold;
+}
+
+/*===================================
+
+
+  About Page Styling
+
+
+*=====================================*/
+.about {
+	float: left;
+	padding-right: 25px;
+}
+
+.about-section {
+	padding-top: 25px;
+}
+
+/*===================================
+
+
+  Classes Page Styling
+
+
+*=====================================*/
+.class-offer {
+	width: 600px;
+	float: right;	
+}
+
+.your-adventure {
+	width: 360px;
+	padding: 15px;
+	display: inline-block;
+}
+
+.youcandoit{
+	clear: both;
+	padding-top: 5px;
+}
+
+.pimmonster101 {
+    float: left;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: -7px -9px 5px #F38243;
+    -webkit-box-shadow: -7px -9px 5px #F38243;
+}
+.icebreaker {
+	float: left;
+	padding: 20px;
+	text-align: center;
+	display: inline-block;
+	background-color: #EDEDED;
+}
+
+.imagination {
+    float: left;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: #EDEDED;  
+}
+
+.monster-theraphy {
+    float: left;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 8px 10px 8px #F38243;
+    -webkit-box-shadow: 8px 10px 8px #F38243;
+}
+
+.imagination a {
+    background: #42AEE3;
+    color: #FFFFFF;
+    padding: 5px 7px 5px 7px;
+    border-radius: 5px;
+    text-decoration: none;	
+}
+
+.pimmonster101 a {
+	background: #42AEE3;
+    color: #FFFFFF;
+    padding: 5px 7px 5px 7px;
+	border-radius: 5px;
+	text-decoration: none;	
+}
+
+.icebreaker a {
+    background: #42AEE3;
+    color: #FFFFFF;
+    padding: 5px 7px 5px 7px;
+	border-radius: 5px;
+	text-decoration: none;	
+}
+
+.icebreaker p {
+	padding-bottom: 15px;
+}
+
+.pimmonster101 p {
+	padding-bottom: 15px;
+}
+
+.imagination p {
+	padding-top: 11px;
+	padding-bottom: 15px;
+}
+
+.monster-theraphy p {
+	padding-bottom: 15px;
+}
+
+.monster-theraphy a {
+     background: #42AEE3;
+    color: #FFFFFF;
+    padding: 5px 7px 5px 7px;
+	border-radius: 5px;
+	text-decoration: none;	
+}
+
+.monster-theraphy a:hover {
+    background-color:#F4A73D;
+}
+
+.pimmonster101 a:hover {
+    background-color:#F4A73D;
+}
+
+.icebreaker a:hover {
+    background-color:#F4A73D;
+}
+
+.imagination a:hover {
+    background-color:#F4A73D;
+}
+
+.imagination img {
+	margin-top: 34px;
+}
+
+.icebreaker {
+	margin-top: 3px;
+}
+
+/*===================================
+
+
+  Gallerery Page Styling
+
+
+*=====================================*/
+
+section.gallery img {
+	width: 150px;
+	padding: 15px 15px;
+}
+
+.monster-name{
+    display: block;
+    text-align: center;
+    color: #524F4F;
+    text-decoration: none;    
+}
+
+.monster-name:hover {
+	color: hsla(189,74%,51%,1.00);
+}
+
+.gallery a {
+	display: inline-block;	
+	text-decoration: none;
+}
+
+/*===================================
+
+
+  Prices Page Styling
+
+
+*=====================================*/
+.class-list {
+	margin-left: 25px;
+}
+
+.list{
+    float: right;
+    width: 400px;
+    border: 4px solid #F4A73D;
+    box-shadow: 8px 10px 11px #F38243;
+    -webkit-box-shadow: 8px 10px 11px #F38243;
+}
+
+.list:hover {
+	opacity: 0.3;
+}
+
+.test:hover .middle {
+  opacity: 1;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 366px;
+    right: 143px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text {
+  background-color: #42AEE3;
+  color: white;
+  font-size: 16px;
+  padding: 12px 20px;
+}
+
+.kit {
+    float: right;
+    width: 400px;
+    border: 4px solid #F4A73D;
+    box-shadow: 8px 10px 11px #F38243;
+    -webkit-box-shadow: 8px 10px 11px #F38243;
+}
+
+.kit:hover {
+	opacity: 0.3;
+}
+
+.bottom {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 657px;
+    right: 180px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    width: 146px;
+}
+
+.test-bottom:hover .bottom {
+  opacity: 1;
+}
+
+.text2 {
+  background-color: #42AEE3;
+  color: white;
+  font-size: 16px;
+  padding: 12px 20px;
+}
+
+.ul-container{
+	padding-bottom: 120px;
+}
+
+.ol-container {
+	padding-bottom: 120px;
+}
+
+/*===================================
+
+
+  Animation Styling
+
+
+*=====================================*/
+.monstereyes {
+    position: absolute;
+    left: 133px;
+    animation: walk 3s forwards infinite linear;
+    top: 349px;
+}
+
+@keyframes walk {
+	from {
+		transform: translateX(3px);
+	}
+	to {transform: translateX(1000px);	
+	}
+}
+
+/*===================================
+
+
+  Figfure caption Styling
+
+
+*=====================================*/
+
+figcaption {
+  color:hsla(353,7%,26%,1.00);
+  font-style: italic; 
+  text-align: center;
+  font-size: 12px;
+  padding-right: 50px;
+}
